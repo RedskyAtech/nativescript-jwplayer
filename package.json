@@ -28,12 +28,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathanaela/nativescript-permissions.git"
+    "url": "git+https://github.com/RedskyAtech/nativescript-jwplayer.git"
   },
   "author": "Redsky Advance Technology <redsky.atech@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nathanaela/nativescript-permissions/issues"
+    "url": "https://github.com/RedskyAtech/nativescript-jwplayer/issues"
   },
-  "homepage": "https://github.com/nathanaela/nativescript-permissions#readme"
+  "homepage": "https://github.com/RedskyAtech/nativescript-jwplayer#readme"
 }
