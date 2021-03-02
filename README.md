@@ -39,13 +39,13 @@ For Android Set it in AndroidManifest.xml's application meta-data file:
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 	</application>
-    ```
+````
 
 For iOS set JW_LICENSE_KEY
 ```xml
 <key>JWPlayerKey</key>
 	<string>YOUR_JW_LICENSE_KEY/cl6q2erGINTWdsP96HFLNh2FbMUujW</string>
-    ```
+```
 
 
 
@@ -55,7 +55,7 @@ From the command prompt go to your app's root folder and execute:
 
 ```bash
 tns plugin add nativescript-jwplayer
-````
+```
 
 ## Usage
 
