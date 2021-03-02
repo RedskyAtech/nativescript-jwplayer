@@ -1,0 +1,39 @@
+{
+  "name": "nativescript-jwplayer",
+  "version": "0.0.1",
+  "description": "JW Player for nativescript",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {},
+  "nativescript": {
+    "platforms": {
+      "android": "7.0.0",
+      "ios": "7.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "vue": "true",
+      "core3": "true",
+      "core4": "true",
+      "core6": "true",
+      "core7": "true",
+      "category": "Processing"
+    }
+  },
+  "keywords": [
+    "Nativescript",
+    "JWPlayer",
+    "JW Player"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaela/nativescript-permissions.git"
+  },
+  "author": "Redsky Advance Technology <redsky.atech@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-permissions/issues"
+  },
+  "homepage": "https://github.com/nathanaela/nativescript-permissions#readme"
+}
