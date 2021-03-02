@@ -70,7 +70,7 @@ Typescript/Javascript with XML
 </Page>
 ```
 
-Angular
+### Angular
 
 in app.module.ts
 
@@ -89,7 +89,7 @@ registerElement("JWPlayer", () => require("nativescript-jwplayer").JWPlayer);
 </GridLayout>
 ```
 
-## Demo apps
+<!-- ## Demo apps
 
 ### NativeScript-Core (XML)
 
@@ -111,7 +111,7 @@ There's also a simple Angular [demo in this repo](https://github.com/EddyVerbrug
 git clone https://github.com/EddyVerbruggen/nativescript-local-notifications
 cd nativescript-local-notifications/src
 npm run demo-ng.ios # or demo-ng.android
-```
+``` -->
 
 ## Plugin API
 
