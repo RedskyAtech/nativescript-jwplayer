@@ -2,7 +2,7 @@
 
 This plugin is provides an interface to use native jwplayer android/ios sdks in nativescript.
 
-Register at [jwplayer.com](jwplayer.com) and get JWPlayer License Key for android and ios.
+Register at [jwplayer.com](https://jwplayer.com) and get JWPlayer License Key for android and ios.
 
 For Android Set it in AndroidManifest.xml's application meta-data file:
 
@@ -44,7 +44,7 @@ For Android Set it in AndroidManifest.xml's application meta-data file:
 For iOS set JW_LICENSE_KEY
 ```xml
 <key>JWPlayerKey</key>
-	<string>YOUR_JW_LICENSE_KEY/cl6q2erGINTWdsP96HFLNh2FbMUujW</string>
+	<string>YOUR_JW_LICENSE_KEY</string>
 ```
 
 
@@ -64,8 +64,8 @@ Typescript/Javascript with XML
 ```xml
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:jw="nativescript-jwplayer">
    <GridLayout>
-    <jw:JWPlayer src="{{src}}" VideoPlayerEventsOnPlayEvent="{{VideoPlayerEventsOnPlayEvent}}"
-        VideoPlayerEventsOnPauseEvent="{{VideoPlayerEventsOnPauseEvent}}"></jw:JWPlayer>
+    <jw:JWPlayer src="{{src}}" videoPlayerEventsOnPlayEvent="{{VideoPlayerEventsOnPlayEvent}}"
+        videoPlayerEventsOnPauseEvent="{{VideoPlayerEventsOnPauseEvent}}"></jw:JWPlayer>
 </GridLayout>
 </Page>
 ```
@@ -83,8 +83,8 @@ registerElement("JWPlayer", () => require("nativescript-jwplayer").JWPlayer);
 <GridLayout>
   <JWPlayer
     [src]="src"
-    (VideoPlayerEventsOnPlayEvent)="VideoPlayerEventsOnPlayEvent($event)"
-    (VideoPlayerEventsOnPauseEvent)="VideoPlayerEventsOnPauseEvent($event)"
+    (videoPlayerEventsOnPlayEvent)="VideoPlayerEventsOnPlayEvent($event)"
+    (videoPlayerEventsOnPauseEvent)="VideoPlayerEventsOnPauseEvent($event)"
   ></JWPlayer>
 </GridLayout>
 ```
